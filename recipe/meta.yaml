@@ -24,7 +24,6 @@ requirements:
     - numpy
     - scipy
     - gdal
-    - requests
 
 test:
   imports:
