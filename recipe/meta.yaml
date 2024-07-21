@@ -1,5 +1,5 @@
 {% set name = "remotior-sensus" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/remotior_sensus-{{ version }}.tar.gz
-  sha256: dffc3f78d263e726f9c5e04953e14c4d3bc7f18621d447cc0f8e1f8ca1f41888
+  sha256: b0a23a6703938b2cbd2879fd0d00dbce6a776370cc33b0fc3a2347921231952c
 
 build:
   noarch: python
